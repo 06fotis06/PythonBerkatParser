@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup as bs
 import urllib.parse
 import time
 import logging
-
+import streamlit 
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = ''
+API_TOKEN = '6127479701:AAEWmIcLDctxOL5hTGNf1nOAOv73Hw_TPu4'
 
 
 logging.basicConfig(level=logging.INFO)
